@@ -11,6 +11,10 @@
 - Google Scholar: https://scholar.google.com/citations?user=D5ilHkMAAAAJ
 - ORCID: https://orcid.org/0000-0001-7057-9888
 - DBLP: https://dblp.org/pid/91/638
+- GitHub username: Zhi-JSNU
+- GitHub profile: https://github.com/Zhi-JSNU
+- Academic homepage: https://zhi-jsnu.github.io/
+- Chinese homepage: https://zhi-jsnu.github.io/zh/
 - Email display: zhi [at] jsnu [dot] edu [dot] cn
 
 ## Research areas
