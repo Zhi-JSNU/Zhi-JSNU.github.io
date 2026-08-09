@@ -28,6 +28,8 @@ Network and system security; trustworthy federated learning and collaborative in
 - `robots.txt`: crawler access policy
 - `sitemap.xml`: bilingual URL index
 
+When a new canonical page is added, add one matching `<url>` entry to `sitemap.xml`, include its language alternates where applicable, and update `lastmod` only when the page content changes materially.
+
 The visible biographies and publications are static HTML so search engines and AI retrieval systems can read the primary content without executing JavaScript. Both language pages use the same Schema.org Person identifier: `https://zhi-jsnu.github.io/#person`.
 
 The displayed email address is intentionally obfuscated. Do not add a clickable email link, plain email address, or email field to metadata or JSON-LD.
