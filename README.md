@@ -8,7 +8,7 @@ This website is maintained through the GitHub account **[Zhi-JSNU](https://githu
 
 - Academic homepage: https://zhi-jsnu.github.io/
 - 中文主页: https://zhi-jsnu.github.io/zh/
-- Official university profile: https://ai.jsnu.edu.cn/78/ba/c14228a358586/page.htm
+- Official university profile: http://ai.jsnu.edu.cn/78/ba/c14228a358586/page.htm
 - Google Scholar: https://scholar.google.com/citations?user=D5ilHkMAAAAJ
 - ORCID: https://orcid.org/0000-0001-7057-9888
 - DBLP: https://dblp.org/pid/91/638
