@@ -1,74 +1,27 @@
-# Academic Personal Homepage
+# Qiang Zhi Academic Website
 
-This is a clean static homepage for a computer science faculty profile. It uses plain HTML, CSS, and minimal JavaScript, so it can be deployed directly with GitHub Pages.
+Static bilingual academic profile for GitHub Pages.
 
-## Files
+- English: `https://zhi-jsnu.github.io/`
+- Chinese: `https://zhi-jsnu.github.io/zh/`
+- Official university profile: `https://ai.jsnu.edu.cn/78/ba/c14228a358586/page.htm`
 
-- `index.html`: page content and academic sections
-- `style.css`: layout, typography, responsive design
-- `script.js`: mobile navigation, current year, active section highlighting
-- `profile.md`: editable source notes for your real academic information
-- `assets/secure-networked-intelligence.png`: generated homepage visual asset
+## Site files
 
-## Update Your Information
+- `index.html`: English homepage and English structured data
+- `zh/index.html`: Chinese homepage and Chinese structured data
+- `assets/css/site.css`: shared visual and responsive styles
+- `assets/js/site.js`: mobile navigation and current year only
+- `assets/img/qiang-zhi-profile.jpg`: profile photograph
+- `robots.txt`: crawler access policy
+- `sitemap.xml`: bilingual URL index
 
-Edit `index.html` and replace the placeholders for:
+## Updating content
 
-- affiliation, title, office, and email
-- Google Scholar profile URL
-- ORCID URL
-- university profile and lab website
-- protected email strings in `index.html`
-- publication titles, authors, venues, and years
-- courses, students, projects, and academic service
+Edit visible biography, teaching, and publication content directly in both HTML files. Keep the same person identity links and `@id` in both JSON-LD blocks. When adding a publication, include a year, title, venue, and DOI link when one is confirmed.
 
-Keep `profile.md` as a compact source file for future revisions.
+The displayed email address is intentionally obfuscated. Do not add a clickable email link, plain email address, or email field to metadata or JSON-LD.
 
-## Email Protection
+## Publishing
 
-The homepage does not place a static `mailto:` link in the HTML. Instead, it shows an obfuscated address and uses JavaScript to assemble and copy the email address when a visitor clicks the email button.
-
-To update it, replace these two reversed strings in both email buttons in `index.html`:
-
-```html
-data-user-reversed="liame.ruoy"
-data-domain-reversed="ude.elpmaxe"
-```
-
-For example, `abc@university.edu` becomes:
-
-```html
-data-user-reversed="cba"
-data-domain-reversed="ude.ytisrevinu"
-```
-
-## Preview Locally
-
-Because this is a static site, you can open `index.html` directly in a browser.
-
-For a local server:
-
-```bash
-python -m http.server 8000
-```
-
-Then visit:
-
-```text
-http://localhost:8000
-```
-
-## Deploy to GitHub Pages
-
-1. Create a GitHub repository, for example `academic-homepage`.
-2. Upload all files in this folder.
-3. In GitHub, open `Settings > Pages`.
-4. Under `Build and deployment`, choose `Deploy from a branch`.
-5. Select the `main` branch and `/root` folder.
-6. Save and wait for GitHub Pages to publish the site.
-
-If you use a personal GitHub Pages repository named `username.github.io`, the homepage will be available at:
-
-```text
-https://username.github.io/
-```
+Upload the listed site files and folders to the root of the `Zhi-JSNU.github.io` repository. GitHub Pages will continue to publish from the existing repository root; no build step is required.
